@@ -12,3 +12,5 @@ Notebook: What We Need to Read
   * finding the fastest mirror site from a list
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/finding%20the%20fastest%20mirror%20site%20from%20a%20list/main.go)
     * [note](./issue/1)
+  * health check
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/health%20check/main.go)
