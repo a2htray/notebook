@@ -14,3 +14,6 @@ Notebook: What We Need to Read
     * [note](https://github.com/a2htray/notebook/issues/1)
   * health check
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/health%20check/main.go)
+  * uuid generator api using ServeMux
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go)
+    * [note](https://github.com/a2htray/notebook/issues/2)
