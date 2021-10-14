@@ -1,6 +1,8 @@
 What does enctype='multipart/form-data' mean?
 ===========================
 
+[原地址](https://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean)
+
 > `enctype="multipart/form-data"` 是什么以及什么时候应该使用
 
 当你创建一个 POST 请求，需要对请求中的 Body 体进行编码
