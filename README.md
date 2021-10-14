@@ -20,3 +20,5 @@ Notebook: What We Need to Read
   * multiple handlers with in-build ServeMux to random int & float
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/multiple%20handlers%20with%20in-build%20ServeMux%20to%20random%20int%20&%20float/main.go)
     * [note](https://github.com/a2htray/notebook/issues/3)
+  * develop two apis with httprouter
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/develop%20two%20apis%20with%20httprouter/main.go)
