@@ -34,3 +34,7 @@ Notebook: What We Need to Read
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/named%20route/main.go)
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
+* work tips
+  * [Windows 下搭建 React 项目 - TypeScript](./work%20tips/Windows%20下搭建%20React%20项目%20-%20TypeScript.md)
+  * 通用模板
+    * [.editorconfig](./work%20tips/通用模板/.editorconfig)
