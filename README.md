@@ -30,5 +30,7 @@ Notebook: What We Need to Read
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20path-based%20matching/main.go)
   * gorilla/mux - query-based matching
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20query-based%20matching/main.go)
+  * named route
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/named%20route/main.go)
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
