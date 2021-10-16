@@ -32,6 +32,14 @@ Notebook: What We Need to Read
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20query-based%20matching/main.go)
   * named route
     * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/named%20route/main.go)
+  * a closure function returns another function `闭包函数`
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20closure%20function%20returns%20another%20function/main.go)
+  * middleware with build-in net/http package
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/middleware%20with%20build-in%20net-http%20package/main.go)
+  * multiple middlewares and channing
+    * [code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/multiple%20middlewares%20and%20channing/main.go)
+  * channing middlewares with Alice
+    * [code]()
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
 * work tips
