@@ -1,0 +1,10 @@
+2021/10/17 18:21:02 sqlite3: successfully prepare the create table statement
+2021/10/17 18:21:02 sqlite3: successfully create books table
+2021/10/17 18:21:02 sqlite3: successfully prepare the insert statement
+2021/10/17 18:21:02 successfully insert a book record
+2021/10/17 18:21:02 sqlite3: successfully read book records
+2021/10/17 18:21:02 book - id: 1, name: 燃烧的大洋 1941-1942, author: Ian W.Toll, isbn: 1234
+2021/10/17 18:21:02 sqlite3: successfully prepare the update statement
+2021/10/17 18:21:02 sqlite3: successfully update a book record
+2021/10/17 18:21:02 sqlite3: successfully prepare the delete statement
+2021/10/17 18:21:02 sqlite3: successfully delete a book record
