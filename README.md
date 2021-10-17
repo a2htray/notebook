@@ -32,7 +32,7 @@ Book: Hands-On RESTful Web Services With Go
 |JSON-RPC using Gorilla RPC|[server code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/JSON-RPC%20using%20Gorilla%20RPC/server.go) [curl](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/JSON-RPC%20using%20Gorilla%20RPC/request.sh)|
 |go-restful: return the server time|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/go-restful%20-%20return%20the%20server%20time/main.go)|
 |CURD operations with sqlite3 and go-sqlite3|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/CURD%20operations%20with%20sqlite3%20and%20go-sqlite3/main.go)|
-/a Metro Rail API with go-restful based on resource/[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20Metro%20Rail%20API%20with%20go-restful%20based%20on%20resource/main.go)/
+|a Metro Rail API with go-restful based on resource|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20Metro%20Rail%20API%20with%20go-restful%20based%20on%20resource/main.go)|
 
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
