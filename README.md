@@ -51,3 +51,4 @@ Book: Hands-On RESTful Web Services With Go
     * github.com/gorilla/rpc `rpc 包`
     * github.com/emicklei/go-restful `快速开发面向资源的 restful api`
     * github.com/mattn/go-sqlite3 `sqlite3 驱动库`
+    * github.com/gin-gonic/gin `正在用的框架`
