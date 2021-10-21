@@ -39,6 +39,7 @@ Book: Hands-On RESTful Web Services With Go
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
   * [Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
+  * [如何将 React 的 Component 作为参数进行传递 - TypeScript](./)
 * work tips
   * [Windows 下搭建 React 项目 - TypeScript](./work%20tips/Windows%20下搭建%20React%20项目%20-%20TypeScript.md)
   * [Mac 下修改 docker 的源 - 客户端](./work%20tips/Mac%20下修改%20docker%20的源%20-%20客户端.md)
