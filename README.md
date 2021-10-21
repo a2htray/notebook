@@ -45,8 +45,7 @@ Book：深入浅出 React 和 Redux
 |显示点击次数的组件|[ClickCounter.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ClickCounter.tsx)|
 |Props 和 State 组件属性的使用|[ControlPanel.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel/index.tsx) [Counter.tsx](深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel/Counter.tsx)|
 |组件向外传递数据|[ControlPanel.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel2/index.tsx) [Counter.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel2/Counter.tsx)|
-
-
+|基于 Redux 全局状态的组件|[动作类型](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxControlPanel/ActionTypes.ts) [动作生成函数](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxControlPanel/actions.ts) [reducer](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxControlPanel/reducer.ts) [store](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxControlPanel/store.ts) [Counter.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxControlPanel/Counter.tsx) [ControlPanel.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxControlPanel/index.tsx)|
 
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
