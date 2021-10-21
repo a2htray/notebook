@@ -12,7 +12,7 @@ Notebook: What We Need to Read
 
 Book: Hands-On RESTful Web Services With Go
 
-|feature|addition|
+|demo|addition|
 |:---|:---|
 |finding the fastest mirror site from a list|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/finding%20the%20fastest%20mirror%20site%20from%20a%20list/main.go) [note](https://github.com/a2htray/notebook/issues/1)|
 |health check|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/health%20check/main.go)|
@@ -36,6 +36,20 @@ Book: Hands-On RESTful Web Services With Go
 |a simple program with Gin|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20simple%20program%20with%20Gin/main.go)|
 |Metro Rail API with Gin|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/Metro%20Rail%20API%20with%20Gin/main.go)|
 
+Book：深入浅出 React 和 Redux
+
+`原有代码中没有使用到 TypeScript，出于学习 TypeScript 的目的，示例代码中加入 TypeScript`
+
+|demo|addition|
+|:---|:---|
+|显示点击次数的组件|[ClickCounter.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ClickCounter.tsx)|
+|Props 和 State 组件属性的使用|[ControlPanel.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel/index.tsx) [Counter.tsx](深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel/Counter.tsx)|
+|组件向外传递数据|[ControlPanel.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel2/index.tsx) [Counter.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ControlPanel2/Counter.tsx)|
+
+
+
+
+
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
   * [Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
@@ -43,6 +57,7 @@ Book: Hands-On RESTful Web Services With Go
 * work tips
   * [Windows 下搭建 React 项目 - TypeScript](./work%20tips/Windows%20下搭建%20React%20项目%20-%20TypeScript.md)
   * [Mac 下修改 docker 的源 - 客户端](./work%20tips/Mac%20下修改%20docker%20的源%20-%20客户端.md)
+  * [Mac 下清理 DNS 缓存](./work%20tips/Mac%20下清理%20DNS%20缓存.md)
   * common templates
     * [.editorconfig](./work%20tips/通用模板/.editorconfig)
 * Linux Commands
