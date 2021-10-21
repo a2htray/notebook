@@ -25,6 +25,7 @@ class ClickCounter extends Component<{}, {count: number}> {
 
   render() {
     return (<div style={counterStyle}>
+      <h6>显示点击次数的组件</h6>
       <button onClick={this.onClickButton}>Click me</button>
       <div>
         Click Count: {this.state.count}

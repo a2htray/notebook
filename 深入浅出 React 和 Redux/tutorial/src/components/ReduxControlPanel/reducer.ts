@@ -5,6 +5,7 @@ export interface ComponentState {
   [K: string]: number
 }
 
+// reducer 接收 Action，返回新的状态
 const reducer = (state: ComponentState={}, action: Action): ComponentState => {
   const { caption } = action
   if (action.type === ActionTypes.INCREMENT) {

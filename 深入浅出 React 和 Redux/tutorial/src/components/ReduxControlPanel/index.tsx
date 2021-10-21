@@ -21,6 +21,7 @@ class ControlPanel extends Component<ControlPanelProps, ControlPanelState> {
 
   render = () => {
     return (<div>
+      <h6>使用 Redux 的全局状态示例</h6>
       {['first', 'second', 'third'].map((caption, idx) => {
         return <Counter key={idx} caption={caption} />
       })}

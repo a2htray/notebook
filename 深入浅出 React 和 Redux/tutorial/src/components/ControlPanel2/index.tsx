@@ -22,6 +22,7 @@ class ControlPanel extends Component<ControlPanelProps, ControlPanelState> {
 
   render = () => {
     return (<div>
+      <h6>组件向外传递数据</h6>
       {['first', 'second', 'third'].map((caption, idx) => {
         return <Counter key={idx} caption={caption} initValue={initValues[idx]} onUpdate={this.onUpdateCounter}/>
       })}

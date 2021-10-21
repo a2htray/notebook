@@ -26,6 +26,7 @@ class ControlPanel extends Component<ControlPanelProps, ControlPanelState> {
 
     return (
       <div>
+        <h6>Props 和 State 组件属性的使用</h6>
         {['first', 'second', 'third'].map((caption, idx) => {
           console.log('array map', 'initValue', initValues[idx])
           return <Counter key={idx} caption={caption} initValue={initValues[idx]}/>

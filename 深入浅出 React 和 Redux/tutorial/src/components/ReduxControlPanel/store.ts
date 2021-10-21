@@ -6,7 +6,7 @@ const initValues = {
   second: 10, 
   third: 20,
 }
-
+// store 结合 reducer 和初始值，创造一个 store
 const store = createStore(reducer, initValues)
 
 export default store
