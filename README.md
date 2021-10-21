@@ -48,12 +48,11 @@ Book：深入浅出 React 和 Redux
 
 
 
-
-
 * stackoverflow
   * [What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
   * [Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
-  * [如何将 React 的 Component 作为参数进行传递 - TypeScript](./)
+  * [如何将 React 的 Component 作为参数进行传递 - TypeScript](./stackoverflow/如何将%20React%20的%20Component%20作为参数进行传递%20-%20TypeScript.md)
+  * [react-dom-router - Route 中 component 和 render 的区别](./stackoverflow/react-dom-router%20-%20Route%20中%20component%20和%20render%20的区别.md)
 * work tips
   * [Windows 下搭建 React 项目 - TypeScript](./work%20tips/Windows%20下搭建%20React%20项目%20-%20TypeScript.md)
   * [Mac 下修改 docker 的源 - 客户端](./work%20tips/Mac%20下修改%20docker%20的源%20-%20客户端.md)
