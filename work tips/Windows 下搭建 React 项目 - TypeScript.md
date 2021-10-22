@@ -17,3 +17,9 @@ npm install --save redux-thunk @types/redux-thunk
 
 npm install --save-dev node-sass
 ```
+
+Storybook
+
+```bash
+npx sb init
+```
