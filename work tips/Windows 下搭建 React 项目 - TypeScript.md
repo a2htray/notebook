@@ -14,6 +14,8 @@ npm install --save axios
 npm install --save react-redux @types/react-redux 
 npm install --save @reduxjs/toolkit 
 npm install --save redux-thunk @types/redux-thunk
+npm install --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @types/react-fontawesome
+
 
 npm install --save-dev node-sass
 ```
