@@ -14,15 +14,15 @@ Book: Hands-On RESTful Web Services With Go
 
 |demo|addition|
 |:---|:---|
-|finding the fastest mirror site from a list|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/finding%20the%20fastest%20mirror%20site%20from%20a%20list/main.go) [note](https://github.com/a2htray/notebook/issues/1)|
-|health check|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/health%20check/main.go)|
-|uuid generator api using ServeMux|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go) [note](https://github.com/a2htray/notebook/issues/2)|
-|multiple handlers with in-build ServeMux to random int & float|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/multiple%20handlers%20with%20in-build%20ServeMux%20to%20random%20int%20&%20float/main.go) [note](https://github.com/a2htray/notebook/issues/3)|
-|develop two apis with httprouter|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/develop%20two%20apis%20with%20httprouter/main.go)|
-|static files|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/static%20files/main.go)|
-|gorilla/mux - path-based matching `TODO: 看源码了解匹配的过程`|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20path-based%20matching/main.go)|
-|gorilla/mux - query-based matching|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20query-based%20matching/main.go)|
-|named route|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/named%20route/main.go)|
+|查找最近的源|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/finding%20the%20fastest%20mirror%20site%20from%20a%20list/main.go) [note](https://github.com/a2htray/notebook/issues/1)|
+|健康检查|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/health%20check/main.go)|
+|使用 ServeMux 生成 UUID|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go) [note](https://github.com/a2htray/notebook/issues/2)|
+|生成随机整数和浮点数的 handlers (ServeMux)|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/multiple%20handlers%20with%20in-build%20ServeMux%20to%20random%20int%20&%20float/main.go) [note](https://github.com/a2htray/notebook/issues/3)|
+|使用 httprouter 完成上述功能|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/develop%20two%20apis%20with%20httprouter/main.go)|
+|静态文件|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/static%20files/main.go)|
+|gorilla/mux - 路径参数匹配|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20path-based%20matching/main.go)|
+|gorilla/mux - 查询参数匹配|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/gorilla-mux%20-%20query-based%20matching/main.go)|
+|命名路由 gorilla-mux|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/named%20route/main.go)|
 |a closure function returns another function `闭包函数`|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20closure%20function%20returns%20another%20function/main.go)|
 |middleware with build-in net/http package|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/middleware%20with%20build-in%20net-http%20package/main.go)|
 |multiple middlewares and channing|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/multiple%20middlewares%20and%20channing/main.go)|
@@ -35,6 +35,7 @@ Book: Hands-On RESTful Web Services With Go
 |a Metro Rail API with go-restful based on resource|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20Metro%20Rail%20API%20with%20go-restful%20based%20on%20resource/main.go)|
 |a simple program with Gin|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/a%20simple%20program%20with%20Gin/main.go)|
 |Metro Rail API with Gin|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/Metro%20Rail%20API%20with%20Gin/main.go)|
+|MongoDB Operations|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/MongoDB%20Operations/main.go)|
 
 Book：深入浅出 React 和 Redux
 
@@ -74,3 +75,4 @@ Book：深入浅出 React 和 Redux
     * github.com/emicklei/go-restful `快速开发面向资源的 restful api`
     * github.com/mattn/go-sqlite3 `sqlite3 驱动库`
     * github.com/gin-gonic/gin `正在用的框架`
+    * github.com/revel/revel `类似于 Django 的全栈框架r`
