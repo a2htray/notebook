@@ -61,6 +61,11 @@ Book：深入浅出 React 和 Redux
     * [React - FontAwesomeIcon 的 spinner 不 spin](./stackoverflow/Font%20awesome%20spinner%20not%20spinning.md)
   * Database
     * [MySQL - 如何修改 max_allowed_packet 的大小](./stackoverflow/How%20to%20change%20max_allowed_packet%20size.md)
+    * [MySQL - 随机选择行](./stackoverflow/Selecting%20Random%20Rows%20in%20MySQL.md)
+  * Nginx
+    * [Nginx - ]
+  * Linux
+    * [Linux - 单行文本转列](./stackoverflow/How%20to%20convert%20from%20row%20to%20column.md)
 * 工作贴士
   * [Windows 下搭建 React 项目 - TypeScript](./work%20tips/Windows%20下搭建%20React%20项目%20-%20TypeScript.md)
   * [Mac 下修改 docker 的源 - 客户端](./work%20tips/Mac%20下修改%20docker%20的源%20-%20客户端.md)
@@ -79,3 +84,4 @@ Book：深入浅出 React 和 Redux
     * github.com/mattn/go-sqlite3 `sqlite3 驱动库`
     * github.com/gin-gonic/gin `正在用的框架`
     * github.com/revel/revel `类似于 Django 的全栈框架`
+    * go.mongodb.org/mongo-driver/mongo `MongoDB`
