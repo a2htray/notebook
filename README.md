@@ -52,6 +52,11 @@ Book：深入浅出 React 和 Redux
 |Redux with Context|[StoreContext.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxWithContext/StoreContext.tsx)|
 |connect 方法的使用|[index.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxConnect/index.tsx)|
 
+Book：深入理解 ES6
+
+* [var 声明及变量提升机制.js](./深入理解%20ES6/var%20声明及变量提升机制.js)
+* [块级声明 - let 代替 var.js](./深入理解%20ES6/块级声明%20-%20let%20代替%20var.js)
+
 * stackoverflow
   * 前端
     * [WEB - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
