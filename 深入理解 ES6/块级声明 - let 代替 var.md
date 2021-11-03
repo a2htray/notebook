@@ -1,4 +1,4 @@
-
+```js
 function getValue(condition) {
     if (condition) {
         let value = "blue";
@@ -10,3 +10,4 @@ function getValue(condition) {
     }
     // 此处 value 不存在
 }
+```

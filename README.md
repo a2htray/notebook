@@ -54,8 +54,15 @@ Book：深入浅出 React 和 Redux
 
 Book：深入理解 ES6
 
-* [var 声明及变量提升机制.js](./深入理解%20ES6/var%20声明及变量提升机制.js)
-* [块级声明 - let 代替 var.js](./深入理解%20ES6/块级声明%20-%20let%20代替%20var.js)
+* [var 声明及变量提升机制](./深入理解%20ES6/var%20声明及变量提升机制.md)
+* [块级声明 - let 代替 var](./深入理解%20ES6/块级声明%20-%20let%20代替%20var.md)
+* [禁止重声明](./深入理解%20ES6/禁止重声明.md)
+* [使用 const 声明](./深入理解%20ES6/使用%20const%20声明.md)
+* [用 const 声明对象](./深入理解%20ES6/用%20const%20声明对象.md)
+* [临时死区 TDZ](./深入理解%20ES6/临时死区%20TDZ.md)
+* [循环中的块作用域绑定](./深入理解%20ES6/循环中的块作用域绑定.md)
+* [循环中的函数](./深入理解%20ES6/循环中的函数.md)
+* [循环中使用立即调用函数](./深入理解%20ES6/循环中使用立即调用函数.md)
 
 * stackoverflow
   * 前端
@@ -68,7 +75,7 @@ Book：深入理解 ES6
     * [MySQL - 如何修改 max_allowed_packet 的大小](./stackoverflow/How%20to%20change%20max_allowed_packet%20size.md)
     * [MySQL - 随机选择行](./stackoverflow/Selecting%20Random%20Rows%20in%20MySQL.md)
   * Nginx
-    * [Nginx - ]
+    * [如何个性 max_allowed_packet 的大小](./stackoverflow/How%20to%20change%20max_allowed_packet%20size.md)
   * Linux
     * [Linux - 单行文本转列](./stackoverflow/How%20to%20convert%20from%20row%20to%20column.md)
 * 工作贴士
