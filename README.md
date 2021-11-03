@@ -10,7 +10,7 @@ Notebook: What We Need to Read
 
 **快速导航**
 
-Book: Hands-On RESTful Web Services With Go
+Book: 《Hands-On RESTful Web Services With Go》
 
 |示例|附加|
 |:---|:---|
@@ -37,7 +37,7 @@ Book: Hands-On RESTful Web Services With Go
 |Gin API 服务|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/Metro%20Rail%20API%20with%20Gin/main.go)|
 |MongoDB 的基本操作|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/MongoDB%20Operations/main.go)|
 
-Book：深入浅出 React 和 Redux
+Book：《深入浅出 React 和 Redux》
 
 `原有代码中没有使用到 TypeScript，出于学习 TypeScript 的目的，示例代码中加入 TypeScript`
 
@@ -52,7 +52,7 @@ Book：深入浅出 React 和 Redux
 |Redux with Context|[StoreContext.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxWithContext/StoreContext.tsx)|
 |connect 方法的使用|[index.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxConnect/index.tsx)|
 
-Book：深入理解 ES6
+Book：《深入理解 ES6》
 
 * [var 声明及变量提升机制](./深入理解%20ES6/var%20声明及变量提升机制.md)
 * [块级声明 - let 代替 var](./深入理解%20ES6/块级声明%20-%20let%20代替%20var.md)
