@@ -97,3 +97,4 @@ Book：《深入理解 ES6》
     * github.com/gin-gonic/gin `正在用的框架`
     * github.com/revel/revel `类似于 Django 的全栈框架`
     * go.mongodb.org/mongo-driver/mongo `MongoDB`
+    * github.com/graphql-go/graphql `GraphQL 实现`
