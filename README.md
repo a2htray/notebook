@@ -65,9 +65,12 @@ Book：《深入理解 ES6》
 * [循环中使用立即调用函数](./深入理解%20ES6/循环中使用立即调用函数.md)
 
 * stackoverflow
+  * 后端
+    * [GO - 如何在模板中遍历数组并使用下标](./stackoverflow/GO%20-%20如何在模板中遍历数组并使用下标.md)
   * 前端
     * [WEB - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
     * [TS - Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
+    * [TS - jQuery 中的 与 TypeScript 中的 string 类型不匹配问题](./stackoverflow/jquery-typescript-parameter-not-match.md)
     * [React - 如何将 React 的 Component 作为参数进行传递 - TypeScript](./stackoverflow/如何将%20React%20的%20Component%20作为参数进行传递%20-%20TypeScript.md)
     * [React - react-dom-router - Route 中 component 和 render 的区别](./stackoverflow/react-dom-router%20-%20Route%20中%20component%20和%20render%20的区别.md)
     * [React - FontAwesomeIcon 的 spinner 不 spin](./stackoverflow/Font%20awesome%20spinner%20not%20spinning.md)
@@ -86,15 +89,3 @@ Book：《深入理解 ES6》
     * [.editorconfig](./work%20tips/通用模板/.editorconfig)
 * Linux Commands
   * [watch](./Linux%20Commands/watch.md)
-* useful packages
-  * GO
-    * github.com/felixge/httpsnoop `捕获与 http 相关的度量指标，如响应时间、状态码`
-    * github.com/justinas/alice `链式处理中间件`
-    * github.com/gorilla/handlers `预设的、常用的中间件`
-    * github.com/gorilla/rpc `rpc 包`
-    * github.com/emicklei/go-restful `快速开发面向资源的 restful api`
-    * github.com/mattn/go-sqlite3 `sqlite3 驱动库`
-    * github.com/gin-gonic/gin `正在用的框架`
-    * github.com/revel/revel `类似于 Django 的全栈框架`
-    * go.mongodb.org/mongo-driver/mongo `MongoDB`
-    * github.com/graphql-go/graphql `GraphQL 实现`
