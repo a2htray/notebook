@@ -84,6 +84,7 @@ Book：深入理解 ES6
   * [Mac 下清理 DNS 缓存](./work%20tips/Mac%20下清理%20DNS%20缓存.md)
   * 通用模板
     * [.editorconfig](./work%20tips/通用模板/.editorconfig)
+    * [tsconfig.json](./work%20tips/通用模板/tsconfig.json)
 * Linux Commands
   * [watch](./Linux%20Commands/watch.md)
 * useful packages
