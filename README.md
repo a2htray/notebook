@@ -10,7 +10,7 @@ Notebook: What We Need to Read
 
 **快速导航**
 
-Book: Hands-On RESTful Web Services With Go
+Book: 《Hands-On RESTful Web Services With Go》
 
 |示例|附加|
 |:---|:---|
@@ -37,7 +37,7 @@ Book: Hands-On RESTful Web Services With Go
 |Gin API 服务|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/Metro%20Rail%20API%20with%20Gin/main.go)|
 |MongoDB 的基本操作|[code](./Hands-On%20RESTFul%20Web%20Services%20with%20Go/MongoDB%20Operations/main.go)|
 
-Book：深入浅出 React 和 Redux
+Book：《深入浅出 React 和 Redux》
 
 `原有代码中没有使用到 TypeScript，出于学习 TypeScript 的目的，示例代码中加入 TypeScript`
 
@@ -52,7 +52,7 @@ Book：深入浅出 React 和 Redux
 |Redux with Context|[StoreContext.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxWithContext/StoreContext.tsx)|
 |connect 方法的使用|[index.tsx](./深入浅出%20React%20和%20Redux/tutorial/src/components/ReduxConnect/index.tsx)|
 
-Book：深入理解 ES6
+Book：《深入理解 ES6》
 
 * [var 声明及变量提升机制](./深入理解%20ES6/var%20声明及变量提升机制.md)
 * [块级声明 - let 代替 var](./深入理解%20ES6/块级声明%20-%20let%20代替%20var.md)
@@ -65,9 +65,12 @@ Book：深入理解 ES6
 * [循环中使用立即调用函数](./深入理解%20ES6/循环中使用立即调用函数.md)
 
 * stackoverflow
+  * 后端
+    * [GO - 如何在模板中遍历数组并使用下标](./stackoverflow/GO%20-%20如何在模板中遍历数组并使用下标.md)
   * 前端
     * [WEB - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
     * [TS - Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
+    * [TS - jQuery 中的 与 TypeScript 中的 string 类型不匹配问题](./stackoverflow/jquery-typescript-parameter-not-match.md)
     * [React - 如何将 React 的 Component 作为参数进行传递 - TypeScript](./stackoverflow/如何将%20React%20的%20Component%20作为参数进行传递%20-%20TypeScript.md)
     * [React - react-dom-router - Route 中 component 和 render 的区别](./stackoverflow/react-dom-router%20-%20Route%20中%20component%20和%20render%20的区别.md)
     * [React - FontAwesomeIcon 的 spinner 不 spin](./stackoverflow/Font%20awesome%20spinner%20not%20spinning.md)
@@ -87,15 +90,3 @@ Book：深入理解 ES6
     * [tsconfig.json](./work%20tips/通用模板/tsconfig.json)
 * Linux Commands
   * [watch](./Linux%20Commands/watch.md)
-* useful packages
-  * GO
-    * github.com/felixge/httpsnoop `捕获与 http 相关的度量指标，如响应时间、状态码`
-    * github.com/justinas/alice `链式处理中间件`
-    * github.com/gorilla/handlers `预设的、常用的中间件`
-    * github.com/gorilla/rpc `rpc 包`
-    * github.com/emicklei/go-restful `快速开发面向资源的 restful api`
-    * github.com/mattn/go-sqlite3 `sqlite3 驱动库`
-    * github.com/gin-gonic/gin `正在用的框架`
-    * github.com/revel/revel `类似于 Django 的全栈框架`
-    * go.mongodb.org/mongo-driver/mongo `MongoDB`
-    * github.com/graphql-go/graphql `GraphQL 实现`
