@@ -25,13 +25,13 @@ func (y *YAMLConfigurationFactory) CreateConfiguration(file string) IConfigurati
 }
 
 type IConfiguration interface {
-	ParseInt(key string) (int64, error)
+	ParseInt64(key string) (int64, error)
 	ParseString(key string) (string, error)
 }
 
 type JSONConfiguration struct {}
 
-func (j *JSONConfiguration) ParseInt(key string) (int64, error) {
+func (j *JSONConfiguration) ParseInt64(key string) (int64, error) {
 	fmt.Println("使用 JSONConfiguration")
 	// 实际代码
 	return 0, nil
@@ -46,7 +46,7 @@ func (j *JSONConfiguration) ParseString(key string) (string, error) {
 
 type YAMLConfiguration struct {}
 
-func (y *YAMLConfiguration) ParseInt(key string) (int64, error) {
+func (y *YAMLConfiguration) ParseInt64(key string) (int64, error) {
 	fmt.Println("使用 YAMLConfiguration")
 	// 实际代码
 	return 0, nil
@@ -73,7 +73,7 @@ func main() {
 
 	configuration = factory.CreateConfiguration(os.Args[1])
 
-	_, _ = configuration.ParseInt("test")
+	_, _ = configuration.ParseInt64("test")
 }
 
 // 抄袭来源
