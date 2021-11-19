@@ -61,8 +61,8 @@ var mirrorList = []string{
 
 // response 返回给前端的数据结构
 type response struct {
-	FastestUrl string `json:"fastestUrl"`
-	Latency time.Duration `json:"latency"`
+	FastestUrl string        `json:"fastestUrl"`
+	Latency    time.Duration `json:"latency"`
 }
 
 func findFastest(urls []string) response {
@@ -100,7 +100,7 @@ func myFindFastest(urls []string) response {
 			if err == nil {
 				respChan <- response{
 					FastestUrl: url,
-					Latency: latency,
+					Latency:    latency,
 				}
 			}
 
@@ -115,16 +115,16 @@ func main() {
 		response := myFindFastest(mirrorList)
 		respJSON, _ := json.Marshal(response)
 
-		w.Header().Set("Content-Type", "application/json")
+		w.Header().Set("content-Type", "application/json")
 		_, _ = w.Write(respJSON)
 	})
 
 	port := ":8000"
 	server := &http.Server{
-		Addr: port,
+		Addr:              port,
 		ReadHeaderTimeout: 10 * time.Second,
-		WriteTimeout: 10 * time.Second,
-		MaxHeaderBytes: 1 << 20,
+		WriteTimeout:      10 * time.Second,
+		MaxHeaderBytes:    1 << 20,
 	}
 
 	fmt.Println(fmt.Sprintf("Starting server on port %s", port))

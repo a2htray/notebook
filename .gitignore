@@ -87,4 +87,5 @@ fabric.properties
 # vendor/
 
 .idea
+rtf_doc_pdf
 

@@ -39,7 +39,7 @@ func (t *TrainResponse) GetTrain(req *restful.Request, resp *restful.Response) {
 	err := globalDB.Get().QueryRow("select id, driver_name, operating_status from train where id=?", id).Scan(&t.ID, &t.DriverName, &t.OperatingStatus)
 	if err != nil {
 		log.Printf("sqlite3: fetch train record via [id=%s] error - %s\n", id, err.Error())
-		resp.AddHeader("Content-Type", "text/plain")
+		resp.AddHeader("content-Type", "text/plain")
 		resp.WriteHeader(http.StatusNotFound)
 		_, _ = resp.Write([]byte("train could not be found"))
 	} else {
@@ -54,29 +54,29 @@ func (t *TrainResponse) CreateTrain(req *restful.Request, resp *restful.Response
 	if err := decoder.Decode(&response); err != nil {
 		log.Printf("decoder: decode request body error - %s\n", err.Error())
 		resp.WriteHeader(http.StatusBadRequest)
-		resp.AddHeader("Content-Type", "text/plain")
+		resp.AddHeader("content-Type", "text/plain")
 		_, _ = resp.Write([]byte("error: decode request body"))
 	} else {
 		if stmt, err := globalDB.Get().Prepare("insert into train (driver_name, operating_status) values (?, ?);"); err != nil {
 			log.Printf("sqlite3: failed to prepare a create statement\n")
 			resp.WriteHeader(http.StatusInternalServerError)
-			resp.AddHeader("Content-Type", "text/plain")
+			resp.AddHeader("content-Type", "text/plain")
 			_, _ = resp.Write([]byte("sqlite3: encounter a server-side error"))
 		} else {
 			if res, err := stmt.Exec(response.DriverName, response.OperatingStatus); err != nil {
 				log.Printf("sqlite3: failed to execute a create statement\n")
 				resp.WriteHeader(http.StatusInternalServerError)
-				resp.AddHeader("Content-Type", "text/plain")
+				resp.AddHeader("content-Type", "text/plain")
 				_, _ = resp.Write([]byte("sqlite3: encounter a server-side error"))
 			} else {
 				if id, err := res.LastInsertId(); err != nil {
 					log.Printf("sqlite3: failed to get the last insert id\n")
 					resp.WriteHeader(http.StatusInternalServerError)
-					resp.AddHeader("Content-Type", "text/plain")
+					resp.AddHeader("content-Type", "text/plain")
 					_, _ = resp.Write([]byte("sqlite3: encounter a server-side error"))
 				} else {
 					response.ID = int(id)
-					resp.AddHeader("Content-Type", "application/json")
+					resp.AddHeader("content-Type", "application/json")
 					_ = resp.WriteEntity(&response)
 				}
 			}
@@ -89,13 +89,13 @@ func (t *TrainResponse) RemoveTrain(req *restful.Request, resp *restful.Response
 	if stmt, err := globalDB.Get().Prepare("delete from train where id=?"); err != nil {
 		log.Printf("sqlite3: failed to prepare a delete statement - %s\n", err.Error())
 		resp.WriteHeader(http.StatusInternalServerError)
-		resp.AddHeader("Content-Type", "text/plain")
+		resp.AddHeader("content-Type", "text/plain")
 		_, _ = resp.Write([]byte("error: decode request body"))
 	} else {
 		if _, err := stmt.Exec(id); err != nil {
 			log.Printf("sqlite3: failed to execute the delete statement\n")
 			resp.WriteHeader(http.StatusInternalServerError)
-			resp.AddHeader("Content-Type", "text/plain")
+			resp.AddHeader("content-Type", "text/plain")
 			_, _ = resp.Write([]byte("sqlite3: encounter a server-side error"))
 		} else {
 			resp.WriteHeader(http.StatusOK)

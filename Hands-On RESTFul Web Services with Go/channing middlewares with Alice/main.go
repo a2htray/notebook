@@ -12,7 +12,7 @@ import (
 func filterContentType(handler http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		log.Println("Currently in the filter content type middleware")
-		if r.Header.Get("Content-Type") != "application/json" {
+		if r.Header.Get("content-Type") != "application/json" {
 			w.WriteHeader(http.StatusUnsupportedMediaType)
 			_, _ = w.Write([]byte("415 - Unsupported Media Type, Please send JSON"))
 			return
@@ -68,7 +68,7 @@ func getListCities(w http.ResponseWriter, r *http.Request) {
 			counter++
 		}
 
-		w.Header().Set("Content-Type", "application/json")
+		w.Header().Set("content-Type", "application/json")
 		dataBytes, _ := json.Marshal(data)
 		_, _ = w.Write(dataBytes)
 	} else {
