@@ -88,8 +88,6 @@ Book：《深入理解 ES6》
 * 结构型模式
 * 行为型模式
 
-
-
 * stackoverflow
   * 后端
     * [GO - 如何在模板中遍历数组并使用下标](./stackoverflow/GO%20-%20如何在模板中遍历数组并使用下标.md)
@@ -113,6 +111,9 @@ Book：《深入理解 ES6》
   * [Windows 下搭建 React 项目 - TypeScript](./work%20tips/Windows%20下搭建%20React%20项目%20-%20TypeScript.md)
   * [Mac 下修改 docker 的源 - 客户端](./work%20tips/Mac%20下修改%20docker%20的源%20-%20客户端.md)
   * [Mac 下清理 DNS 缓存](./work%20tips/Mac%20下清理%20DNS%20缓存.md)
+  * [MySQL 的基本操作](./work%20tips/MySQL%20的基本操作.md)
+  * [React 下 HTMLAnchorElement 的 onClick 函数声明](./work%20tips/React%20下%20HTMLAnchorElement%20的%20onClick%20函数声明.md)
+  * [Ubuntu 下根据端口关闭进程](./work%20tips/ubuntu_close_thread_based_on_port.sh)
   * 通用模板
     * [.editorconfig](./work%20tips/通用模板/.editorconfig)
     * [tsconfig.json](./work%20tips/通用模板/tsconfig.json)
