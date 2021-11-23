@@ -78,6 +78,7 @@ Book：《深入理解 ES6》
 * [函数的 name 属性](./深入理解%20ES6/函数的%20name%20属性.md)
 * [函数的两个不同的方法](./深入理解%20ES6/函数的两个不同的方法.md)
 * [函数的元属性 target](./深入理解%20ES6/函数的元属性%20target.md)
+* [提升到顶部的块级函数]()
 
 博文：“深入设计模式”
 
@@ -91,6 +92,7 @@ Book：《深入理解 ES6》
 * stackoverflow
   * 后端
     * [GO - 如何在模板中遍历数组并使用下标](./stackoverflow/GO%20-%20如何在模板中遍历数组并使用下标.md)
+    * [GO - 如何调试运行命令行 exit status 1](./stackoverflow/GO%20-%20如何调试运行命令行%20exit%20status%201.md)
   * 前端
     * [WEB - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
     * [Web - 在页面重定向时自定义设置请求头](./stackoverflow/在页面重定向时自定义设置请求头.md)
