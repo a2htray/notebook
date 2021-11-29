@@ -83,6 +83,9 @@ Book：《深入理解 ES6》
 * [尾调用优化](./深入理解%20ES6/尾调用优化.md)
 * [对象字面量属性方法的简写](./深入理解%20ES6/对象字面量属性方法的简写.md)
 * [Object 的新增方法](./深入理解%20ES6/Object%20的新增方法.md)
+* [自有属性枚举顺序的基本规则](./深入理解%20ES6/自有属性枚举顺序的基本规则.md)
+* [Object.setPrototypeOf 设置原型](./深入理解%20ES6/Object.setPrototypeOf.md)
+* [简化原型访问的  super 引用](./深入理解%20ES6/简化原型访问的%20%20super%20引用.md)
 
 博文：“深入设计模式”
 
@@ -106,6 +109,7 @@ Book：《深入理解 ES6》
     * [React - 如何将 React 的 Component 作为参数进行传递 - TypeScript](./stackoverflow/如何将%20React%20的%20Component%20作为参数进行传递%20-%20TypeScript.md)
     * [React - react-dom-router - Route 中 component 和 render 的区别](./stackoverflow/react-dom-router%20-%20Route%20中%20component%20和%20render%20的区别.md)
     * [React - FontAwesomeIcon 的 spinner 不 spin](./stackoverflow/Font%20awesome%20spinner%20not%20spinning.md)
+    * [React - pre 标签格式化代码问题](./stackoverflow)
   * Database
     * [MySQL - 如何修改 max_allowed_packet 的大小](./stackoverflow/How%20to%20change%20max_allowed_packet%20size.md)
     * [MySQL - 随机选择行](./stackoverflow/Selecting%20Random%20Rows%20in%20MySQL.md)
