@@ -101,15 +101,16 @@ Book：《深入理解 ES6》
     * [GO - 如何在模板中遍历数组并使用下标](./stackoverflow/GO%20-%20如何在模板中遍历数组并使用下标.md)
     * [GO - 如何调试运行命令行 exit status 1](./stackoverflow/GO%20-%20如何调试运行命令行%20exit%20status%201.md)
   * 前端
-    * [WEB - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
+    * [Web - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
     * [Web - 在页面重定向时自定义设置请求头](./stackoverflow/在页面重定向时自定义设置请求头.md)
+    * [JavaScript - 数组去重的多种实现](./stackoverflow/数组去重的多种实现.md)
     * [jQuery - 如何失效按钮](./stackoverflow/如何失效按钮.md)
     * [TS - Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
     * [TS - jQuery 中的 与 TypeScript 中的 string 类型不匹配问题](./stackoverflow/jquery-typescript-parameter-not-match.md)
     * [React - 如何将 React 的 Component 作为参数进行传递 - TypeScript](./stackoverflow/如何将%20React%20的%20Component%20作为参数进行传递%20-%20TypeScript.md)
     * [React - react-dom-router - Route 中 component 和 render 的区别](./stackoverflow/react-dom-router%20-%20Route%20中%20component%20和%20render%20的区别.md)
     * [React - FontAwesomeIcon 的 spinner 不 spin](./stackoverflow/Font%20awesome%20spinner%20not%20spinning.md)
-    * [React - pre 标签格式化代码问题](./stackoverflow)
+    * [React - pre 标签格式化代码问题](./stackoverflow/数组去重的多种实现.md)
   * Database
     * [MySQL - 如何修改 max_allowed_packet 的大小](./stackoverflow/How%20to%20change%20max_allowed_packet%20size.md)
     * [MySQL - 随机选择行](./stackoverflow/Selecting%20Random%20Rows%20in%20MySQL.md)
