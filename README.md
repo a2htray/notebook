@@ -86,6 +86,7 @@ Book：《深入理解 ES6》
 * [自有属性枚举顺序的基本规则](./深入理解%20ES6/自有属性枚举顺序的基本规则.md)
 * [Object.setPrototypeOf 设置原型](./深入理解%20ES6/Object.setPrototypeOf.md)
 * [简化原型访问的  super 引用](./深入理解%20ES6/简化原型访问的%20%20super%20引用.md)
+* [方法 supper 的调用过程](./深入理解%20ES6/方法%20supper%20的调用过程.md)
 
 博文：“深入设计模式”
 
@@ -100,6 +101,7 @@ Book：《深入理解 ES6》
   * 后端
     * [GO - 如何在模板中遍历数组并使用下标](./stackoverflow/GO%20-%20如何在模板中遍历数组并使用下标.md)
     * [GO - 如何调试运行命令行 exit status 1](./stackoverflow/GO%20-%20如何调试运行命令行%20exit%20status%201.md)
+    * [GO - 如何格式化 JSON](./stackoverflow/GO%20-%20如何格式化%20JSON.md)
   * 前端
     * [Web - What does enctype='multipart/form-data' mean?](./stackoverflow/form-enctype.md)
     * [Web - 在页面重定向时自定义设置请求头](./stackoverflow/在页面重定向时自定义设置请求头.md)
@@ -107,6 +109,10 @@ Book：《深入理解 ES6》
     * [jQuery - 如何失效按钮](./stackoverflow/如何失效按钮.md)
     * [TS - Typescript: How to export a variable](./stackoverflow/ts-export-a-variable.md)
     * [TS - jQuery 中的 与 TypeScript 中的 string 类型不匹配问题](./stackoverflow/jquery-typescript-parameter-not-match.md)
+    * [TS - 对象字面量隐式含 any 类型的读取](./stackoverflow/TS%20-%20对象字面量隐式含%20any%20类型的读取.md)
+    * [TS - 对象可以为 null](./stackoverflow/)
+    * [TS&React - select 的 onChange 事件的类型安全](./stackoverflow/select%20的%20onChange%20事件的类型安全.md)
+    * [TS&React - TypeScript 中 React 如何初始化 State](./stackoverflow/TS%20-%20TypeScript%20中%20React%20如何初始化%20State.md)
     * [React - 如何将 React 的 Component 作为参数进行传递 - TypeScript](./stackoverflow/如何将%20React%20的%20Component%20作为参数进行传递%20-%20TypeScript.md)
     * [React - react-dom-router - Route 中 component 和 render 的区别](./stackoverflow/react-dom-router%20-%20Route%20中%20component%20和%20render%20的区别.md)
     * [React - FontAwesomeIcon 的 spinner 不 spin](./stackoverflow/Font%20awesome%20spinner%20not%20spinning.md)
@@ -125,9 +131,11 @@ Book：《深入理解 ES6》
   * [MySQL 的基本操作](./work%20tips/MySQL%20的基本操作.md)
   * [React 下 HTMLAnchorElement 的 onClick 函数声明](./work%20tips/React%20下%20HTMLAnchorElement%20的%20onClick%20函数声明.md)
   * [Ubuntu 下根据端口关闭进程](./work%20tips/ubuntu_close_thread_based_on_port.sh)
+  * [Jetbrains 全家桶](./work%20tips/Jetbrains/README.md)
   * 通用模板
     * [.editorconfig](./work%20tips/通用模板/.editorconfig)
     * [tsconfig.json](./work%20tips/通用模板/tsconfig.json)
     * [rollup.config.js](./work%20tips/通用模板/rollup.config.js)
+    * [Ubuntu 20.04 源 source.list](./work%20tips/通用模板/Ubuntu%2020.04%20源%20source.list)
 * Linux Commands
   * [watch](./Linux%20Commands/watch.md)
