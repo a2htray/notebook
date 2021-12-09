@@ -1,4 +1,4 @@
-key: redux_react_cls_component
+key: react_cls_component_redux
 
 ```typescript jsx
 import React from 'react'
